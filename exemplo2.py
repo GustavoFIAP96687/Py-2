@@ -1,13 +1,11 @@
-alt = float(input('Digite a sua altura em (m): '))
+print('Tabuada com FOR')
  
-peso = float(input('Digite o seu peso (em Kg): '))
+num = int(input("Digite um numero para obter a tabuada: "))
  
-imc = peso / (alt * alt)
+while(num <= 0):
+    print("Não pode numero negativo!")
+    num = int(input("Digite um outro numero para obter a tabuada: "))
  
-if imc < 20:
-    print("Abaixo do peso!")
-elif imc < 25:
-    print("Peso ideal!")
-else:
-    print("Acima do peso!")
- 
+for i in range(1, 11, 1):
+    r = num * i
+    print(f'{num} X {i} = {r}')
