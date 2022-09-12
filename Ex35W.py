@@ -6,6 +6,7 @@ while(num <= 0):
  
 i = 1
  
-for i in range(1, 11, 1):
+while(i <= 10):
     r = num * i
     print(f'{num} X {i} = {r}')
+    i = i + 1

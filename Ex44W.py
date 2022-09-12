@@ -1,12 +1,15 @@
 soma = 0
+i = 1
 
-for i in range(1, 11, 1):
+while(i <= 10):
     numero = int(input('digite um numero: '))
 
     if(i == 1):
         maior = numero
+        i = i + 1
     elif(numero > maior):
         maior = numero
+        i = i + 1
 
     # soma dos valores
     soma = soma + numero

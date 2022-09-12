@@ -54,6 +54,5 @@ if(decisao == 's'):
     print(media)
     print(porcentagem)
 
-    print('encerrado')
 else:
     print('encerrado')
