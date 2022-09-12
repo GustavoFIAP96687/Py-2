@@ -18,3 +18,21 @@ elif(v3 < v1 < v2):
     print(v3, v1, v2)
 else:
     print(v3, v2, v1)
+
+
+    # FORMA ALTERNATIVA#
+
+    #for c in range(0,3):
+
+    #n =int(input("digite um valor: "))
+    #if c == 0 or n > lista[-1]:
+        #lista.append(n)
+    #else:
+        #pos = 0
+        #while pos < len(lista):
+            #if n <= lista[pos]:
+            # lista.insert(pos, n)
+             #break
+            #pos +=1
+#print("-=" * 30)
+#print(f"os valores diogitaos em ordem foram a çista{lista}")
