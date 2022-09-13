@@ -3,7 +3,7 @@ soma = 0
 i = 1
 
 while(i <= 5):
-    numero = int(input('digite um numero: '))
+    numero = int(input('digite um numero POSITIVO: '))
 
     if(i == 1):
         maior = numero
