@@ -4,13 +4,11 @@ while(r!="N"):
     while(n<0):
         print("Valor invalido!")
         n=int(input("Digite um valor positivo: "))
-    i=n
-    while(i<=0):
+    for i in range(n,0,-1):
         if(i==n):
             f=i
         else:
             f=f*i
-    i=i-1
     print(f"{n}!={f}")
     
     r=input("Deseja uma nova execução? (S) ou (N):")

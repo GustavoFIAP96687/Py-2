@@ -1,8 +1,8 @@
 
 soma = 0
 
-for i in range(1, 5, 1):
-    numero = int(input('digite um numero: '))
+for i in range(1, 6, 1):
+    numero = int(input('digite um numero POSITIVO: '))
 
     if(i == 1):
         maior = numero

@@ -3,6 +3,9 @@ i = 1
 
 while(i <= 10):
     numero = int(input('digite um numero: '))
+    while(numero < 0):
+        print('o numero deve ser positivo')
+        numero = int(input('digite um numero: '))
 
     if(i == 1):
         maior = numero
@@ -11,10 +14,10 @@ while(i <= 10):
         maior = numero
         i = i + 1
 
-    # soma dos valores
+    
     soma = soma + numero
 
-    # media
+    
 media = soma / 10
 
 print('o maior é: ', maior)
