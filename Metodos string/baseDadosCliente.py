@@ -17,7 +17,7 @@ for dado in dados_individuais:
     elif tipo == 'P':
         produtos[info[0]] = {'quantidade': info[1], 'preco': info[2]}
 
-# Exibe as informações de clientes
+
 print('Clientes:')
 for nome, info in clientes.items():
     print('Nome:', nome)
@@ -25,7 +25,7 @@ for nome, info in clientes.items():
     print('Cidade:', info['cidade'])
     print()
 
-# Exibe as informações de produtos
+
 print('Produtos:')
 for nome, info in produtos.items():
     print('Nome:', nome)
