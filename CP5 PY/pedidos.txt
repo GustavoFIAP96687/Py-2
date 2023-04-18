@@ -1,0 +1,11 @@
+Gustavo
+Mouse,2,300.0
+Teclado,2,300.0
+
+Jonas
+Monitor,2,100.0
+Monitorzin,1,100.0
+
+guga
+mouse,1,100.0
+
